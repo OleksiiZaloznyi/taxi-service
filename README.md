@@ -22,12 +22,13 @@ This project used 3-layer architecture:<br>
 
 <h2>Technologies</h2>
 - JDK 11<br>
-- Servlet<br>
-- Tomcat<br>
-- MySQL<br>
+- Servlet 4.0.1<br>
+- Tomcat 9.0.71<br>
+- MySQL 8.0<br>
 - JDBC<br>
 - CSS<br>
 - JSP<br>
+- JSTL 1.2<br>
 
 <h2>How to run</h2>
 You need installed MySQL and Tomcat to run it.<br>
