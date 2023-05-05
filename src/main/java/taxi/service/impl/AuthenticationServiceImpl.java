@@ -1,11 +1,14 @@
-package taxi.service;
+package taxi.service.impl;
 
 import java.util.Optional;
 import taxi.dao.DriverDao;
-import taxi.dao.DriverDaoImpl;
+import taxi.dao.impl.DriverDaoImpl;
 import taxi.exception.AuthenticationException;
+import taxi.lib.Service;
 import taxi.model.Driver;
+import taxi.service.AuthenticationService;
 
+@Service
 public class AuthenticationServiceImpl implements AuthenticationService {
     private DriverDao driverDao = new DriverDaoImpl();
 
