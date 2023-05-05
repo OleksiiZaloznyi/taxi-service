@@ -33,6 +33,6 @@ This project used 3-layer architecture:<br>
 <h2>How to run</h2>
 You need installed MySQL and Tomcat to run it.<br>
 - Open resources directory and use init_db.sql file to create necessary tables<br>
-- Edit some required fields for yourself.<br>
+- Go to ConnectionUtil and replace the placeholders to connect your DataBase.<br>
 - Configure Apache Tomcat version 9.0.71<br>
 - Run the app<br>
