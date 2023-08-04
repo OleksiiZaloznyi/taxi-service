@@ -1,4 +1,4 @@
-﻿# Taxi Service
+﻿# CityCabs Taxi Service
 
 <h2>Description</h2>
 Taxi Service is a simple web-application that provides authentication, registration and another CRUD operations.
